@@ -17,11 +17,11 @@ print("Tamaño del arreglo")
 size = len(playlistT) #Variable nueva = len(nombre objeto)
 print("La última canción es: ")
 print(playlistT[size - 1])
-#Para añadir el último valor de la lista, es size - 1
+#Para añadir el último valor de la lista, es tamaño humano del arreglo - 1
 
 
 
-nuevapalabra = "esternocleidomastoideo"
+nuevapalabra = "ana"
 print("Imprimir todas las letras de una palabra: La palabra escogida es",nuevapalabra,"")
 
 # for = iteración (suma acumulativa)
@@ -31,3 +31,5 @@ print("Imprimir todas las letras de una palabra: La palabra escogida es",nuevapa
 
 for i in range(len(nuevapalabra)):
     print(nuevapalabra[i])
+
+
